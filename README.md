@@ -20,8 +20,8 @@ This is a simple weather application frontend that allows users to retrieve and 
 
 1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>  
+   git clone https://github.com/shibv/weather-web-frontend
+   cd weather-web-frontend  
    ```
 2. **Install the dependencies**
     ```bash
