@@ -1,8 +1,33 @@
-# React + Vite
+# Weather Application Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This is a simple weather application frontend that allows users to retrieve and display weather data using the OpenWeatherMap API. The application provides functionalities such as fetching current weather, viewing weather summaries, and setting alerts based on user-defined thresholds.
 
-Currently, two official plugins are available:
+### Features
+- Retrieve current weather data based on city input.
+- View daily weather summaries.
+- Set alerts for specific weather conditions and temperature thresholds.
+- User-friendly interface styled with Tailwind CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- **Frontend**: React
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS
+- **State Management**: React Hooks
+- **API**: OpenWeatherMap API
+
+## Setup
+
+1. **Clone the repository**:
+   ```bash
+   git clone <repository-url>
+   cd <repository-directory>  
+   ```
+2. **Install the dependencies**
+    ```bash
+   npm install 
+   ```
+3. **Run the application**
+    ```bash
+   npm run dev
+   ``` 
